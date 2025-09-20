@@ -6,7 +6,8 @@ on:
       - src/**
     branches:
       - main
-
+permissions:
+  contents: write
 jobs:
   ci:
     runs-on: ubuntu-latest
